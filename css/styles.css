@@ -1,0 +1,71 @@
+/*
+Color palette
+#F7FFF7 - white
+#721817 - persian plum (vinho)
+#FA9F42 - deep saffron (amarelo)
+#2B4162 - indigo dye (azul)
+#0B6E4F - bottle green (verde)
+#E0E0E2 - gainsboro (cinza)
+*/
+
+/* ---------------------- GLOBAL STYLES ---------------- */
+body{
+    color:#343434;
+}
+
+a{
+    color:#E0E0E2;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+img {
+    width: 300px;
+  }
+
+
+
+/* ---------------------- PROFILE ---------------- */
+header{
+    background-color: #2B4162;
+    color: #F7FFF7;
+}
+  
+  
+/* ---------------------- PROJECTS ---------------- */
+.projects{
+    background-color:#0B6E4F ;
+    color: #F7FFF7;
+}
+
+.projects .btn{
+    color: #0B6E4F;
+    background-color: #E0E0E2;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover{
+    background: rgb(224, 224, 226, 80%);
+}
+
+
+/* ---------------------- WORK EXPERIENCE ---------------- */
+.work-experience{
+    background-color: #FA9F42;
+}
+
+.work-experience a{
+    color: #343434;
+}
+
+/* ---------------------- EDUCATION ---------------- */
+
+/* ---------------------- CONTACTS ---------------- */
+footer{
+    background-color: #0B6E4F;
+    color: #F7FFF7;
+}
