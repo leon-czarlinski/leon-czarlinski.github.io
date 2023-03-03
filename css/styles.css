@@ -9,6 +9,13 @@ Color palette
 */
 
 /* ---------------------- GLOBAL STYLES ---------------- */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
 body{
     color:#343434;
     margin: 0;
@@ -79,6 +86,21 @@ header{
     background: rgb(224, 224, 226, 80%);
 }
 
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #E0E0E2;
+    padding: 25px 0;
+}
+
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3{
+    margin-top: 0;
+}
+
 
 /* ---------------------- WORK EXPERIENCE ---------------- */
 .work-experience{
@@ -103,4 +125,23 @@ header{
 footer{
     background-color: #721817;
     color: #E0E0E2;
+    text-align: center;
+}
+
+.contact-list{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a{
+    padding: 15px;
+    display: inline-block;
+}
+
+.contact-list img{
+    height: 45px;
+    width: 45px;
+    background-size: cover;
 }
