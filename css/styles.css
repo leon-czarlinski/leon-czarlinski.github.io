@@ -3,6 +3,7 @@ Color palette
 #F7FFF7 - white
 #721817 - persian plum (vinho)
 #FA9F42 - deep saffron (amarelo)
+#ECB000 - burned yellow
 #2B4162 - indigo dye (azul)
 #0B6E4F - bottle green (verde)
 #E0E0E2 - gainsboro (cinza)
@@ -59,11 +60,26 @@ img {
     padding: 60px 0;
 }
 
+h3 {
+    margin-bottom: 0;
+}
+
+.item-details h3 + p {
+    font-style: italic;
+}
+
+.item-details h3 ~ p {
+    margin: 0;
+}
+
+.divider > section:last-of-type {
+    border-bottom: none;
+}
+
 /* ---------------------- PROFILE ---------------- */
 header{
     background-color: #0B6E4F;
     color: #E0E0E2;
-    text-align: center;
 }
   
   
@@ -74,7 +90,7 @@ header{
 }
 
 .projects .btn{
-    color: #0B6E4F;
+    color: #2B4162;
     background-color: #E0E0E2;
     text-decoration: none;
     padding: 8px;
@@ -86,11 +102,11 @@ header{
     background: rgb(224, 224, 226, 80%);
 }
 
-.project-item{
+/* .project-item{
     overflow: hidden;
     border-bottom: 1px dashed #E0E0E2;
     padding: 25px 0;
-}
+} */
 
 .project-item img{
     float: left;
@@ -108,24 +124,33 @@ header{
     color: #252525;
 }
 
+.job-item{
+    border-bottom: 1px dashed #343434;;
+}
+
 .work-experience a{
     color: #343434;
 }
 
 /* ---------------------- EDUCATION ---------------- */
 .education{
-    background-image: url(../images/joanna-kosinska-unsplash.jpg);
+    /* background-image: url(../images/joanna-kosinska-unsplash.jpg);
     background-size: cover;
-    background-position: top right;
-    padding-bottom: 100px;
+    background-position: top right; */
+    padding-bottom: 50px;
     color: #252525;
+    background-color: #ecb000;
+}
+
+.education p {
+    width: 60%;
 }
 
 /* ---------------------- CONTACTS ---------------- */
 footer{
     background-color: #721817;
     color: #E0E0E2;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .contact-list{
@@ -136,7 +161,7 @@ footer{
 }
 
 .contact-list a{
-    padding: 15px;
+    padding: 15px;  
     display: inline-block;
 }
 
@@ -144,4 +169,35 @@ footer{
     height: 45px;
     width: 45px;
     background-size: cover;
+}
+
+/* ---------------------- RESPONSIVE ---------------- */
+/* Will apply for 750 px or larger */
+@media screen and (min-width:750px){
+    header, footer {
+        text-align: center;
+      }
+
+    .project-item img{
+        float: left;
+        margin-right: 30px;
+        /* filter: drop-shadow(2px 2px 5px #E0E0E2); */    
+    }
+
+    .job-item{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+        border-bottom: 1px dashed #343434;;
+    }
+
+    .education{
+        background-image: url(../images/joanna-kosinska-unsplash.jpg);
+        background-size: cover;
+        background-position: top right;
+        padding-bottom: 50px;
+        color: #252525;
+        /* background-color: #ecb000; */
+    }
+    
 }
