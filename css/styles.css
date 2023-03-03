@@ -102,16 +102,16 @@ header{
     background: rgb(224, 224, 226, 80%);
 }
 
-/* .project-item{
+.project-item{
     overflow: hidden;
     border-bottom: 1px dashed #E0E0E2;
     padding: 25px 0;
-} */
+}
 
-.project-item img{
+/* .project-item img{
     float: left;
     margin-right: 20px;
-}
+} */
 
 .project-item h3{
     margin-top: 0;
