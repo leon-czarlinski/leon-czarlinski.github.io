@@ -1,154 +1,535 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Leon Czarlinski, Marketing, Customer Engagment, learning IT</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <main>
-            <!-- ***********************  ABOUT / PROFILE  *********************** -->
-            <header>
-                <div class="content-wrap">
-                    <h1>Leon Czarlinski</h1>
-                    <h2>Strategy, Marketing and Business Inteligence</h2>
-                
-                    <p>I am a customer focused professional with 9 years of experience in marketing, communication, branding and sales campaigns. I have experience managing squads using agile methodology.</p>
-                    <!-- <p>I am calm with positive disposition and solutions-oriented in the face of conflict and know how to work effectively in an environment with diverse personalities and styles.</p> -->
-                    <!-- <p>I have sense of priority and problem-solving focus, managing workflow, interpersonal conflict, ensuring teams have what they need to succeed.</p> -->
-                    <p>Currently I am pursuing a 2-years course to gain knowledge in IT, such as project management, data analytics and web programming.</p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Leon Schedlin Czarlinski</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&display=swap" rel="stylesheet">
+    
+    <!-- google fonts icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="container-fluid px-0">
+      <!-- NAVBAR -->
+      
+      <nav class="navbar fixed-top navbar-expand-lg bg-light shadow">
+        <div class="container-fluid">
+          <div class="navbar-brand" href="/">
+            <img class="material-icons-outlined me-1" src="images/IconLSC.png" alt="Leon Schedlin Czarlinski brand icon, pile of legos">
+            Leon Schedlin Czarlinski
+          </div>
+          <button type="button" 
+            class="navbar-toggler" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" 
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container px-3">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="/">Home</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#about">About</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#portfolio">Portfolio</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#workexperience">Work Experience</a> 
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-lg-3" href="#contact">Contact Me</a> 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- HERO BANNER -->
+      <header class="bg-light py-5">
+        <div class="container px-5">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+              <div class="my-5">
+                <h2 class="text-center fw-bold mb-2">Hi! I am Leon,</h2>
+                <h3 class="text-center mb-2">marketer, planner, data analysis</h3>
+                <p class="lead text-muted mb-4">I am a professional with over a decade of experience in marketing, sales, communication, branding, and squads management using agile methodology.</p>
+                <div class="gridbanner d-grid gap-3 d-sm-flex justify-content-center">
+                  <a class="btn btn-primary btn-large text-uppercase" href="#about">
+                    Learn More
+                    <span class="material-icons-outlined ms-2">help_outline</span>
+                  </a>
+                  <a class="btn btn-outline-primary btn-large text-uppercase" href="#portfolio">
+                    View my work
+                    <span class="material-icons-outlined ms-2">manage_search</span>
+                  </a>
                 </div>
-            </header>
-
-            <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-            <section class="projects">
-                <div class="content-wrap divider">
-                    <h2>Featured Portfolio</h2>
-                    <p>View selected projects below that I created during my course @Humber. Check my contributions in my <a href="https://github.com/leon-czarlinski" target="_blank">GitHub Profile</a></p>
-                
-                    <!-- Project 1 -->  
-                    <section class="project-item">
-                        <div class="project-img">
-                            <img src="images/project1_marcacao.jpg" alt="printscreen of my webpage">
-                        </div>
-                        <div class="project-summary">
-                            <h3>Building my own website</h3>
-                            <p>Developed my webpage as part of my learning focused on the webprogramming and design. I am also putting some of my JavaScript knowledge into it.</p>
-                            <a class="btn" href="https://leon-czarlinski.github.io" target="_blank">Leon.com</a>
-                        </div>
-                    </section>
-
-                    <section class="project-item">
-                        <div class="project-img">
-                            <img src="images/dashboard.png" alt="printscreen of my webpage">
-                        </div>
-                        <div class="project-summary">
-                            <h3>Data visualization</h3>
-                            <p>I am building a porfolio for data visualization on tableau. Check my work on tableau to see stories I am telling using data.</p>
-                            <a class="btn" href="https://public.tableau.com/app/profile/leon8208" target="_blank">tableau.com</a>
-                        </div>
-                    </section>
+              </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 justify-content-center">
+              <img class="img-fluid rounded-3 my-5" src="images/heroBannerDataAnalysis3.jpg" alt="Image of a computer, coffee, notebook, pen and plant from the top">
+            </div>
+          </div>
+        </div>
+      </header>
+      
+      
+      <main>
+        <!-- ABOUT ME -->
+        <section id="about" class="text-center py-3">
+          <div class="container py-3">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">About</h2>
+              <p class="lead text-muted mb-3">
+                Currently I am pursuing a postgraduation to gain knowledge in IT, such as project management, data analytics and web programming.
+                This course is a great complement to the skillsets that I already had in marketing and my goal is to become a decision-making professional driven by data.
+              </p>
+            </div>
+          </div>
+          <div class="container mb-5">
+            <div class="row">
+              <!-- About me 1 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-3 about">
+                  <span class="material-icons-outlined m-auto text-primary">extension</span>
                 </div>
-            </section>
+                <h5>Harmony & Adaptability</h5>
+                <p class="text-muted mb-0">
+                  I seek build strong relationships that hold a team together. I look for areas of agreement and I tend to be a "now" person.
+                </p>
+              </div>
 
-            <!-- ***********************  WORK EXPERIENCE  *********************** -->
-            <section class="work-experience">
-                <div class="content-wrap item-details divider">
-                    <h2>Work Experience</h2>
-                    <p>This is a sum up of my last 3 positions. See my complete work history on <a href="https://www.linkedin.com/in/leon-czarlinski/?locale=en_US">LinkedIn</a>.</p>
-
-                    <!-- Job 1 -->
-                    <section class="job-item">
-                        <div class="job-details">
-                            <h3>Sales campaign Product Owner</h3>
-                            <p>Bayer, CropScience - Brazil</p>
-                            <p>November, 2020 - July, 2022</p>
-                        </div>
-                        <div class="job-summary">
-                            <p>Responsible for the strategy of cashback and extra points campaigns focused on the customer; Responsible for the transition plan design and execution of new models of commercial campaigns;</p>
-                            <p>Key achievements and contribuitions:</p>
-                            <ul>
-                                <li>Responsible for implementing sales campaign that brought <strong>sales increase by 8 times</strong> compared to same period. Engagement rate with digital on sles vs lead was 40% (avg 20%).</li>
-                                <li>Product Owner of the activation squad, a <strong>team of 8 people</strong> focused on implementing communication plan and getting sales conversion through online activations.</li>
-                                <li>Responsible for data analysis to develop and implement sales campaigns addressing consumer needs managing a<strong> total budget of 30 mio dollars</strong>.</li>
-                                <li>Responsible for implementing pilot project (and later the roll out) that focused on bringing new benefits and changing the farmer's shopping experience.</li>
-                                <li>Responsible for establishing insights to create customer-focused sales campaigns. Upselling and cross-selling opportunities to gain market share and penetration.</li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <!-- Job 2 -->
-                    <section class="job-item">
-                        <div class="job-details">
-                            <h3>Loyalty and Customer Experience Coordinator</h3>
-                            <p>Bayer, CropScience - Brazil</p>
-                            <p>March, 2020 - October 2020</p>
-                        </div>
-                        <div class="job-summary">
-                            <p>Leadership on creating brand strategy, key messages, key visual and lauching plan to two new brands - Impulso Bayer, the loyalty brand and Orbia, the new market place brand;</p>
-                            <p>Key contributions:</p>
-                            <ul>
-                                <li>Responsible for launching loyalty program Impulso Bayer to different stakeholders, training and supporting with program rules, key messages, and Impulso Bayer “way of life”. </li>
-                                <li>Leadership on implementing Impulso Bayer&rsquos experiences and brand moments to better improve brand positioning with customers;</li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <!-- Job 3 -->
-                    <section class="job-item">
-                        <div class="job-details">
-                            <h3>Brand Strategy Specialist</h3>
-                            <p>Bayer, CropScience  Brazil</p>
-                            <p>May, 2018 - February, 2020</p>
-                        </div>
-                        <div class="job-summary">
-                            <p>Responsible for leading the creative concept, visual identity and brand positioning creation through Brand Model methodology defining brand architecture, benefit ladder, value proposition and key messages for all stakeholders;</p>
-                        </div>
-                    </section>
+              <!-- About me 2 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-3 about">
+                  <span class="material-icons-outlined m-auto text-primary">emoji_objects</span>
                 </div>
-            </section>
+                <h5>Consistency & Restorative</h5>
+                <p class="text-muted mb-0">
+                  I make things happen thought consistency and restoration. I am adept at dealing with problems, figuring out what is wrong and resolving it.
+                </p>
+              </div>
 
-            <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-            <section class="education">
-                <div class="content-wrap item-details">
-                    <h2>Education</h2>
-
-                    <section>
-                        <h3>Humber College - Toronto, ON</h3>
-                        <p>Information Technology Solutions, 2022-2024</p>
-                        <p>Graduate Certificate: 2 years program preparing students to step into the IT indstry</p>
-                    </section>
-
-                    <section>
-                        <h3>FIA (Fundação Instituto de Administração) - Sao Paulo, Brazil</h3>
-                        <p>Retail and Branding, 2018-2020</p>
-                        <p>Graduate Certificate: focused on retail, branding and consumer market</p>
-                    </section>
-
-                    <section>
-                        <h3>ESPM (Escola Superior Publicidade e Prograganda) - Sao Paulo, Brazil</h3>
-                        <p>Marketing, 2010-2014</p>
-                        <p>Bachelor&apos;s degree on social communication, publicity and marketing</p>
-                    </section>
+              <!-- About me 3 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="d-flex mb-3 about">
+                  <span class="material-icons-outlined m-auto text-primary">track_changes</span>
                 </div>
-            </section>
+                <h5>Context</h5>
+                <p class="text-muted mb-0">
+                  I am excited to discover new facts. I have the ability to see link between where I have been and where I am going, focusing on planning and decision-making. 
+                </p>
+              </div>
+            </div>
+            <div class="container"><p class="float-end"><a href="#">Back to top</a></p></div>
+          </div>
+        </section>
 
-            <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-            <footer>
-                <div class="content-wrap">
-                    <!-- Social media and contact links. Add or remove any networks. -->
-                    <ul class="contact-list">
-                        <li><a href="mailto:leon.victor104@hotmail.com"><img src="images/email.svg" alt="email icon"></a></li>
-                        <li><a href="https://www.linkedin.com/in/leon-czarlinski/?locale=en_US" target="_blank"><img src="images/linkedin.png" alt="linkedin icon"></a></li>
-                        <li><a href="https://github.com/leon-czarlinski" target="_blank"><img src="images/github-mark-white.png" alt="github icon"></a></li>
-                        <li><a href="https://public.tableau.com/app/profile/leon8208" target="_blank"><img src="images/tableau-icon.svg" alt="github icon"></a></li>
-                    </ul>
+        <!-- PORTFOLIO -->
+        <section id="portfolio" class="text-center">
+          <div class="container py-3 border-top">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Portfolio</h2>
+              <p class="lead text-muted mb-3">
+                View some of my latest projects. Full portfolio available in GitHub <a class="text-body-secondary" href="https://github.com/leon-czarlinski" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2A3C47" class="bi bi-github" viewBox="0 0 16 16">
+                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg></a>
+              </p>
+            </div>
+          </div>
+
+          <div class="container mb-5">
+            <div class="row">
+              <!-- Project 1 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/project1.jpg" alt="project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Project 1</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Data</div>
+                      <div class="badge bg-success rounded-pill">Python</div>
+                      <div class="badge bg-secondary rounded-pill">SQL</div>
+                    </div>
+                    <p class="card-text">
+                      This is project 1 and I will explain it better when I have a second chance to do it
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://www.google.com.br"
+                      target="_blank">
+                      <span class="material-icons-outlined me-1">code</span>
+                      github repository
+                    </a>
+                  </div>
                 </div>
-            </footer>
-         </main>
-    </body>
+              </div>
+
+              <!-- Project 2 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/project2.png" alt="project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Project 2</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-warning rounded-pill">Volunteer</div>
+                      <div class="badge bg-info rounded-pill">HTML</div>
+                      <div class="badge bg-dark rounded-pill">CSS</div>
+                    </div>
+                    <p class="card-text">
+                      This is project 2 and I will explain it better when I have a second chance to do it
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://www.google.com.br"
+                      target="_blank">
+                      <span class="material-icons-outlined me-1">code</span>
+                      github repository
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 3 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/project3.png" alt="project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Project 3</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-warning rounded-pill">Volunteer</div>
+                      <div class="badgeothers badge bg-primary rounded-pill">VideoEditing</div>
+                      <div class="badgeothers badge bg-primary rounded-pill">Documentary</div>
+                    </div>
+                    <p class="card-text">
+                      This is project 3 and I will explain it better when I have a second chance to do it
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://www.google.com.br"
+                      target="_blank">
+                      <span class="material-icons-outlined me-1">code</span>
+                      github repository
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Project 4 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/project1.jpg" alt="project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Project 4</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-primary rounded-pill">Data</div>
+                      <div class="badge bg-success rounded-pill">Python</div>
+                      <div class="badge bg-secondary rounded-pill">SQL</div>
+                    </div>
+                    <p class="card-text">
+                      This is project 4 and I will explain it better when I have a second chance to do it
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://www.google.com.br"
+                      target="_blank">
+                      <span class="material-icons-outlined me-1">code</span>
+                      github repository
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 5 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/project2.png" alt="project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Project 5</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-warning rounded-pill">Volunteer</div>
+                      <div class="badge bg-info rounded-pill">HTML</div>
+                      <div class="badge bg-dark rounded-pill">CSS</div>
+                    </div>
+                    <p class="card-text">
+                      This is project 3 and I will explain it better when I have a second chance to do it
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://www.google.com.br"
+                      target="_blank">
+                      <span class="material-icons-outlined me-1">code</span>
+                      github repository
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 6 -->
+              <div class="col-lg-4 mx-auto mb-5">
+                <div class="card h-100 shadow-lg border-0 bg-light">
+                  <img class="card-img-top" src="images/project3.png" alt="project 1">
+                  <div class="card-body p-4">
+                    <h5 class="card-title mb-3">Project 6</h5>
+                    <div class="mb-2">
+                      <div class="badge bg-warning rounded-pill">Volunteer</div>
+                      <div class="badgeothers badge bg-primary rounded-pill">VideoEditing</div>
+                      <div class="badgeothers badge bg-primary rounded-pill">Documentary</div>
+                    </div>
+                    <p class="card-text">
+                      This is project 3 and I will explain it better when I have a second chance to do it
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent mb-3">
+                    <a class="btn btn-outline-primary btn-sm text-uppercase"
+                      href="https://www.google.com.br"
+                      target="_blank">
+                      <span class="material-icons-outlined me-1">code</span>
+                      github repository
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="container"><p class="float-end"><a href="#">Back to top</a></p></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- WORK EXPERIENCE -->
+        <section id="workexperience" class="text-center">
+          <div class="container py-3 border-top">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Work Experience</h2>
+              <p class="lead text-muted mb-3">
+                View my latest work experience. Full 9-year work history available in LinkedIn <a class="text-body-secondary" href="https://www.linkedin.com/in/leon-czarlinski" target="_blank" >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#2A3C47" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg></a>
+              </p>
+            </div>
+          </div>
+
+          <div class="container mb-5">
+            <div class="accordion">
+              <!-- WorkExperience 1 -->
+              <div class="accordion-item mx-auto">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Volunteer @Lithuanian Museum-Archives of Canada, Aug 2023 to present
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <p>During my volunteer, I took the initiative to produce a compelling video series with a documentary narrative. 
+                      This project highlighted the experiences of Lithuanian immigrants who embarked on their journey to Canada, shaping their lives throughout the 1950s and 1960s. 
+                      I demonstrated creativity recording and editing the videos, and also in effectively presenting their stories online. 
+                      The volunteer work allowed me to make a valuable contribution while enhancing my skills in multimedia communication.</p>
+                      <p>I took on the responsibility of revamping the website, MapaSite, which involved enhancing its structure, 
+                      implementing an improved SEO strategy, and ultimately resulting in a more user-friendly and discoverable online presence.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- WorkExperience 2 -->
+              <div class="accordion-item mx-auto">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Sales campaign Product Owner @Bayer, Nov 2020 to Jul 2022
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <p><strong>Right hand to area manager</strong> leading a 25 people cross-functional team to design and launch new business model. 
+                    Managed the working relationship of 8 internal teams in sales and marketing to <strong>drive alignment with the $20 million</strong> project of a new campaign model.</p>
+                    <p>Led implementation of a viable GTM strategy with 4 pillars (governance, analytics, technology and UX) generating sales increase 
+                      <strong>8 times bigger</strong> compared to the same period.</p>
+                    <p>Created and led a 10 people squad responsible for implementing cashback campaigns, using innovative up-selling and cross-selling strategies, 
+                      <strong>achieving engagement rate with digital of 40%.</strong></p>
+                    <p><strong>Managed $30 million budget annually</strong>, analysing large data sets, identifying market size and trends, 
+                      consumer insights to improve new leads, campaign loyalty, and enhance customer experience.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- WorkExperience 3 -->
+              <div class="accordion-item mx-auto">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Retention marketing Product Owner @Bayer, Mar 2020 to Oct 2020
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <p><strong>Oversaw Bayer&#39;s loyalty brand strategy</strong>. Led the creation and launch of the name, brand strategy,
+                      key messages, and key visuals for Bayer&#39;s loyalty program and the marketplace to different stakeholders. 
+                    </p>
+                    <p>
+                      Developed and delivered digital campaigns using CRM, Google AdWords, Google display and offline communications focused on acquisition and loyalty, 
+                      evaluating campaign performance across all stages and channels of the journey. In only 7 months, I was responsible for bringing aprox <strong>10 thousand new clients</strong> to the program.
+                    </p>
+                    <p>
+                      Created and led the 6 people digital squad responsible for designing and implementing the UX of the brand&#39;s web page. 
+                      <strong>Increased brand engagement by 9.5%</strong> through tracking and analysing brand performance.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- WorkExperience 4 -->
+              <div class="accordion-item mx-auto">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                    Brand Strategist @Bayer, May 2018 to Feb 2020
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <p>
+                      Implemented the Brand Model methodology to develop and execute brand strategy, visual identity, and brand positioning. 
+                      Employed critical thinking, curiosity, and creativity to define brand architecture, benefit ladder, value proposition, and key messages for all stakeholders.
+                    </p>
+                    <p>
+                      Demonstrated the ability to work autonomously and as part of a team, ensuring accurate and comprehensive reporting to support data-driven decision-making.
+                    </p>
+                    <p>
+                      <strong>Promoted to the role of Strategist in May 2018</strong> after successfully managing Bayer&#39;s loyalty brand since July 2017, 
+                      showcasing personal accountability and commitment to achieving and exceeding goals and objectives.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- WorkExperience 5 -->
+              <div class="accordion-item mx-auto">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                    Marketing Associate @Bayer, Jul 2015 to Apr 2018
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <p>
+                      <strong>Led a successful start-up project approved by Bayer&#39;s CEO</strong> and secured an incremental budget to develop a cutting-edge tool for sales 
+                      interaction with customers and channels, resulting in the widespread adoption of iPads by the entire sales force.
+                    </p>
+                    <p>
+                      Evaluated campaign performance across all stages and channels tracking communication metrics and constructing reports for the brand manager.
+                    </p>
+                    <p>
+                      Developed digital marketing campaigns and content creation  <strong>focused on brand awareness and engagement</strong>. 
+                      Managed communication plan timelines to ensure message delivery at the right time for customers using tools such SEO, organic search, display advertising, and landing pages.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container"><p class="float-end"><a href="#">Back to top</a></p></div>
+          </div>
+
+        <!-- CONTACT ME -->
+        <section id="contact" class="text-center py-3">
+          <div class="container py-3 border-top">
+            <div class="row justify-content-center">
+              <h2 class="fw-bold">Contact me</h2>
+              <p class="lead text-muted mb-3">
+                Do you want to be in touch with me? I would love to hear from you.
+              </p>
+            </div>
+          </div>
+          
+          <div class="container mb-5">
+            <div class="row row-cols-1 row-cols-lg-5 g-2 g-lg-1 justify-content-center">
+              <div class="col">
+                <div class="contact d-flex mb-3">
+                  <span class=" material-icons-outlined m-auto text-primary icon-circle">home</span>
+                </div>
+                <h6>M6E 2T9, Toronto, ON</h6>
+              </div>
+
+              <div class="col">
+                <div class="contact d-flex mb-3">
+                  <span class=" material-icons-outlined m-auto text-primary">phone</span>
+                </div>
+                <h6>+1 (647) 885 4783</h6>
+              </div>
+
+              <div class="col">
+                <div class="contact d-flex mb-3">
+                  <span class=" material-icons-outlined m-auto text-primary">mail</span>
+                </div>
+                <h6>leon.victor104@hotmail.com</h6>
+              </div>
+            </div>
+          </div>
+        </section>  
+      </main>
+
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <span class="footer mb-3 mb-md-0 text-body-secondary">Leon Schedlin Czarlinski</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="iconfooter ms-3"><a class="text-body-secondary" href="mailto:leon.victor104@hotmail.com" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#BA3521" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+              </svg></a>
+            </li>
+
+            <li class="iconfooter ms-3"><a class="text-body-secondary" href="https://github.com/leon-czarlinski" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#BA3521" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg></a>
+            </li>
+
+            <li class="iconfooter ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/leon-czarlinski" target="_blank" >
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#BA3521" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg></a>
+            </li>
+
+            <li class="iconfooter ms-3"><a class="text-body-secondary" href="https://public.tableau.com/app/profile/leon8208" target="_blank">
+              <img class="tableaulogo" src="images/tableau-icon.svg">
+            </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
