@@ -49,13 +49,25 @@ body{
   background-color: #BA3521;
 }
 
+/* .my-5{
+  text-align: left;
+  
+} */
+
 .my-5 > h2 {
   font-size: 50px;
+  padding: 5px;
 }
 
 .my-5 > h3{
   color: #BA3521;
+  padding: 5px;
 }
+
+.my-5 > p {
+  padding:10px;
+}
+
 
 .gridbanner > .btn-primary {
   background-color: #BA3521 !important;
